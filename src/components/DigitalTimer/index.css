@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 8, 8);
+  padding: 20px;
+  color: white;
+}
+.timer {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(113, 99, 143);
+}
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(111, 173, 109);
+}
+button {
+  margin: 40px;
+  height: 30px;
+  width: 30px;
+  font-size: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.last-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.timer1 {
+  color: white;
+  font-size: 20px;
+}
